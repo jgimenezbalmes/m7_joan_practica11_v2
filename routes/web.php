@@ -29,5 +29,5 @@ Route::get('ej1_2/{ej1_2}', [ControladorEjercicio1::class, 'ej1_2']);
 //PrimeraView
 Route::get('ej1_4/{nomAlumne}', [ControladorEjercicio1::class, 'primeraView']);
 //ej2
-Route::get('ej2/{param1}/{param2}/{param3}/{param4}', [ControladorEjercicio1::class, 'primeraView']);
+Route::get('ej2/{param1}/{param2}/{param3}/{param4}', [ControladorEjercicio1::class, 'ultimapart']);
 
