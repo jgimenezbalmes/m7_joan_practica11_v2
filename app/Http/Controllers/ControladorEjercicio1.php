@@ -24,7 +24,7 @@ class ControladorEjercicio1 extends Controller
     }
 
     public function ultimapart ($param1, $param2, $param3, $param4){
-        $textoFinal = 'Éste es el resultado del segundo ejercicio de la práctica hecha por ' .$param1 .' ';
+        $textoFinal = 'Éste es el resultado del segundo ejercicio de la práctica hecha por ' .$param1 .'git  ';
         $textoFinal .= '' .$param2 .'';
         $textoFinal .= ' ' .$param3 .'';
         $textoFinal .= ', con edad ' .$param4 .' años. ';
